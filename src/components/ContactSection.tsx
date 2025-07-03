@@ -4,7 +4,7 @@ export default function ContactSection() {
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl text-purple-600 font-bold mb-4">Get In Touch</h2>
         <p className="text-lg text-gray-700 mb-6">
-          Interested in working together, collaborating, or just saying hi? I'm always open to new opportunities and conversations.
+          Interested in working together, collaborating, or just saying hi? I am always open to new opportunities and conversations.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

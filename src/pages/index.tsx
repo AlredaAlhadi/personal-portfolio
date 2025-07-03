@@ -24,9 +24,9 @@ export default function Home() {
 
 
         <section className="py-20 px-4 sm:px-8 bg-gray-50 w-full">
-          <h1 className="text-5xl font-bold text-blue-600 mb-4">Hi, I'm Alreda 👋</h1>
+          <h1 className="text-5xl font-bold text-blue-600 mb-4">Hi, I&apos;m Alreda 👋</h1>
           <p className="text-lg text-gray-700 max-w-xl mx-auto">
-            I'm a Computer Science student at Ontario Tech University focused on full-stack development, backend systems, and polished frontend UI.
+            I&apos;m a Computer Science student at Ontario Tech University focused on full-stack development, backend systems, and polished frontend UI.
           </p>
         </section>
 
@@ -35,8 +35,8 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl text-green-600 font-bold mb-4">About Me</h2>
             <p className="text-lg text-gray-700">
-              I'm a third-year Computer Science student with a strong foundation in full-stack development, backend systems, and mobile app design.
-              I've worked with technologies like Java, Node.js, Flutter, PostgreSQL, and Python, and I love building clean, efficient applications.
+              I&apos;m a third-year Computer Science student with a strong foundation in full-stack development, backend systems, and mobile app design.
+              I&apos;ve worked with technologies like Java, Node.js, Flutter, PostgreSQL, and Python, and I love building clean, efficient applications.
             </p>
           </div>
         </section>
