@@ -11,7 +11,14 @@ export default function ContactSection() {
             href="mailto:alreda1alhadi@gmail.com"
             className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
           >
-            Contact Me
+            Email
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alreda-alhadi"
+            target="_blank"
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+          >
+            LinkedIn
           </a>
           <a
             href="/Resume.pdf"
