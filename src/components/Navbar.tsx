@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
-        <Link href="/" className="text-2xl font-bold text-blue-600">Alreda</Link>
+        <Link href="/" className="text-2xl font-bold text-blue-600">Alreda.dev</Link>
 
         {/* Hamburger Icon */}
         <button
@@ -49,6 +49,7 @@ export default function Navbar() {
           <a href="#about" className="text-gray-700 hover:text-blue-600">About</a>
           <a href="#projects" className="text-gray-700 hover:text-blue-600">Projects</a>
           <a href="#education" className="text-gray-700 hover:text-blue-600">Education</a>
+          <a href="#skills" className="text-gray-700 hover:text-blue-600">Skills</a>
           <a href="#contact" className="text-gray-700 hover:text-blue-600">Contact</a>
         </div>
       </div>
@@ -59,6 +60,7 @@ export default function Navbar() {
           <a href="#about" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">About</a>
           <a href="#projects" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Projects</a>
           <a href="#education" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Education</a>
+          <a href="#skills" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Skills</a>
           <a href="#contact" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Contact</a>
         </div>
       )}
