@@ -73,6 +73,14 @@ export default function Home() {
       />
 
       <ProjectCard
+        title="ATM + Banking System (Console App)"
+        date="Jan 2025 - Apr 2025"
+        description="Built a text-based ATM and backend banking system in Python and Bash. Included user login, deposits, withdrawals, and transaction history. Used text files for account data and implemented strict I/O rules, error handling, and multi-phase QA testing (black-box and white-box)."
+        tech="Python · Bash · Shell Scripting · File I/O · QA Testing · UML · Agile"
+      />
+
+
+      <ProjectCard
         title="Bee Healthy - AI Workout Assistant"
         date="Feb 2025"
         description="Built an AI-powered workout planner at HackHive using a DeepSeek model via Ollama. Used SVG muscle selectors, AJAX for user input, and dynamic DOM rendering to show personalized plans. Frontend: HTML/CSS/JS/jQuery. AI-backed JSON responses."
