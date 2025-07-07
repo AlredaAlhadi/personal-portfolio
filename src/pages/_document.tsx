@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-        <link rel="icon" href="/alreda-dev-logo.png" />
+        <link rel="icon" href="/alreda-dev-logo-transparent.png" />
       <body className="antialiased">
         <meta property="og:title" content="Alreda Alhadi Portfolio" />
         <meta property="og:description" content="Explore my work in full-stack development, mobile apps, and IT support." />
