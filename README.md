@@ -1,4 +1,5 @@
 # Personal Portfolio
+**Alreda Alhadi**  
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a Computer Science student and developer.
 
@@ -22,7 +23,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 - **Frontend**: React.js, Next.js, Tailwind CSS
 - **Hosting**: Vercel
-- **Other Tools**: GitHub, Figma
+- **Other Tools**: GitHub, Canva, Figma
 
 ## 📂 Project Structure
 
