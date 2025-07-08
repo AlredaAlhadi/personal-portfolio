@@ -9,6 +9,12 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
+    <>
+      {/* Early Work in Progress Banner */}
+    <div className=" text-yellow-200 text-center py-2 text-sm">
+        🚧 This website is an <strong>early work in progress</strong>. Updates are coming soon!
+    </div>
+
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
@@ -65,5 +71,6 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+    </>
   );
 }

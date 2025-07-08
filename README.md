@@ -2,6 +2,12 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a Computer Science student and developer.
 
+---
+
+⚠️ **Note**: This website is still an **early work in progress**! I am actively improving its design, functionality, and content. Stay tuned for updates!
+
+---
+
 ## 🚀 Features
 
 - **Responsive Design**: Fully responsive and optimized for all devices.
