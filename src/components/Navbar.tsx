@@ -12,7 +12,7 @@ export default function Navbar() {
     <>
       {/* Early Work in Progress Banner */}
     <div className=" text-yellow-200 text-center py-2 text-sm">
-        🚧 This website is an <strong>early work in progress</strong>. Updates are coming soon!
+        🚧 This website is still an <strong>early work in progress</strong>. Updates to design and functionality are coming soon!
     </div>
 
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
