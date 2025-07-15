@@ -10,12 +10,13 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Early Work in Progress Banner */}
-    <div className=" text-yellow-200 text-center py-2 text-sm">
+
+    {/* Early Work in Progress Banner */}
+    <div className="text-yellow-200 text-center text-sm py-4 px-2 sm:px-4 z-50 relative">
         🚧 This website is still an <strong>early work in progress</strong>. Updates to design and functionality are coming soon!
     </div>
 
-    <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
+    <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-40">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
         <Link href="/" className="text-2xl font-bold text-blue-600">Alreda.dev</Link>
@@ -62,7 +63,7 @@ export default function Navbar() {
 
       {/* Mobile Nav Links */}
       {isOpen && (
-        <div className="sm:hidden px-4 pb-4 space-y-2 bg-white shadow-md">
+        <div className="sm:hidden flex px-4 pb-4 space-y-2 bg-white shadow-md">
           <a href="#about" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">About</a>
           <a href="#projects" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Projects</a>
           <a href="#education" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Education</a>
@@ -71,6 +72,7 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+
     </>
   );
 }
