@@ -11,7 +11,7 @@ export default function Projects() {
             title="Personal Portfolio Website"
             date="July 2025 - Present"
             description="Developed a responsive developer portfolio site using Next.js, React, and Tailwind CSS. Features smooth scrolling, project cards, sticky navbar with burger menu, and SEO/meta tags. Hosted on Vercel."
-            tech="Next.js · React.js · Tailwind CSS · Vercel · Responsive Design · GitHub"
+            tech="Next.js · React.js · Tailwind CSS · Vercel · Responsive Design · Docker · TypeScript · Canva · GitHub"
           />
 
           <ProjectCard
