@@ -12,7 +12,7 @@ export default function Navbar() {
     <>
 
     {/* Early Work in Progress Banner */}
-    <div className="text-yellow-200 text-center text-sm py-4 px-2 sm:px-4 z-50 relative">
+    <div className="text-yellow-200 text-center text-sm py-4 px-2 sm:px-4 z-10 relative">
         🚧 This website is still an <strong>early work in progress</strong>. Updates to design and functionality are coming soon!
     </div>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
 
       {/* Mobile Nav Links */}
       {isOpen && (
-        <div className="sm:hidden flex px-4 pb-4 space-y-2 bg-white shadow-md">
+        <div className="sm:hidden px-4 pb-4 space-y-2 bg-white shadow-md z-50">
           <a href="#about" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">About</a>
           <a href="#projects" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Projects</a>
           <a href="#education" onClick={toggleMenu} className="block text-gray-700 hover:text-blue-600">Education</a>
